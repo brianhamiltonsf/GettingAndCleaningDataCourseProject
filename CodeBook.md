@@ -13,11 +13,11 @@ There are six values:
 
 The following 66 numeric columns capture measurements made during the study by the phone's accelerometer and gyroscope. The measurements are between -1 and 1. 
 
-Acc: measured by the phone's accelerometer
-Gyro: measured by the phone's gyroscope
-time: measured on the time domain
-freq: measured on the frequency domain
-mean: the mean of the measurement
+Acc: measured by the phone's accelerometer  
+Gyro: measured by the phone's gyroscope  
+time: measured on the time domain  
+freq: measured on the frequency domain  
+mean: the mean of the measurement  
 std: the standard deviation of the measurement
 
 time-BodyAcc-mean-X          
@@ -37,23 +37,23 @@ time-BodyAccJerk-mean-Y
 time-BodyAccJerk-mean-Z       
 time-BodyAccJerk-std-X       
 time-BodyAccJerk-std-Y        
-time-BodyAccJerk-std-Z  
+time-BodyAccJerk-std-Z   
 freq-BodyAcc-mean-X           
 freq-BodyAcc-mean-Y           
 freq-BodyAcc-mean-Z          
 freq-BodyAcc-std-X            
 freq-BodyAcc-std-Y            
 freq-BodyAcc-std-Z           
-freq-BodyAccJerk-mean-X       
+freq-BodyAccJerk-mean-X        
 freq-BodyAccJerk-mean-Y       
 freq-BodyAccJerk-mean-Z      
 freq-BodyAccJerk-std-X        
 freq-BodyAccJerk-std-Y        
-freq-BodyAccJerk-std-Z
+freq-BodyAccJerk-std-Z  
 freq-BodyAccMag-mean          
 freq-BodyAccMag-std           
-freq-BodyBodyAccJerkMag-mean 
-freq-BodyBodyAccJerkMag-std 
+freq-BodyBodyAccJerkMag-mean   
+freq-BodyBodyAccJerkMag-std  
 time-BodyGyro-mean-X         
 time-BodyGyro-mean-Y          
 time-BodyGyro-mean-Z          
@@ -67,7 +67,7 @@ time-BodyGyroJerk-std-X
 time-BodyGyroJerk-std-Y       
 time-BodyGyroJerk-std-Z       
 time-BodyAccMag-mean         
-time-BodyAccMag-std           
+time-BodyAccMag-std             
 time-GravityAccMag-mean       
 time-GravityAccMag-std       
 time-BodyAccJerkMag-mean      
@@ -84,5 +84,5 @@ freq-BodyGyro-std-Y
 freq-BodyGyro-std-Z           
 freq-BodyBodyGyroMag-mean     
 freq-BodyBodyGyroMag-std     
-freq-BodyBodyGyroJerkMag-mean 
-freq-BodyBodyGyroJerkMag-std
+freq-BodyBodyGyroJerkMag-mean  
+freq-BodyBodyGyroJerkMag-std  
