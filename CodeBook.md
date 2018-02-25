@@ -1,3 +1,21 @@
+run_analysis.R performs the following actions:
+
+- Read features.txt to create a data frame called features  
+- Read X_train.txt to create the train data frame, removing columns that do not include "mean()" or "std"    
+- Read X_test.txt to create the test data frame, removing columns that do not include "mean()" or "std"    
+- Remove columns  
+- Create feature_names character vector of feature names and apply it to the test and train data sets. Remove "()" from the vector to clean up the names. Change leading "t" to "time-" since this t refers to measurements on the time domain. Change leading "f" to "freq-" since this f refers to measurements on the frequency domain.  
+- Read in subject_train.txt to create the train_subjects data frame. Rename V1 column to SUBJECT_ID and add to train data frame.    
+- Read in subject_test.txt to create the test_subjects data frame. Rename V1 column to SUBJECT_ID and add to test data frame. 
+- Read in y_train.txt to create train_labels data frame. Rename V1 column to ACTIVITY and add to train data frame.  
+- Read in y_test.txt to create test_labels data frame. Rename V1 column to ACTIVITY and add to test data frame.  
+- Use rbind to combine train and test data frames to create combined data frame.
+- Read in activity_labels.txt to create labels data frame.  
+- Use labels data frame to determine the correct value for each ACTIVITY in the combined data frame.  
+- Group combined data frame by SUBJECT_ID and ACTIVITY and summarize to find the mean for each variable per SUBJECT_ID and ACTIVITY.
+
+The above commands produce the below variables:
+
 SUBJECT_ID
 Identifies the subject who was the source of the data. It consists of integer values ranging from 1 to 30
 
