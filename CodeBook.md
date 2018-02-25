@@ -13,12 +13,15 @@ There are six values:
 
 The following 66 numeric columns capture measurements made during the study by the phone's accelerometer and gyroscope. The measurements are between -1 and 1. 
 
-Acc: measured by the phone's accelerometer  
+Acc: measured by the phone's accelerometer, comprised of body and gravitational motion components  
 Gyro: measured by the phone's gyroscope  
 time: measured on the time domain  
 freq: measured on the frequency domain  
 mean: the mean of the measurement  
-std: the standard deviation of the measurement
+std: the standard deviation of the measurement  
+X/Y/Z: these indicate the direction of the measurement    
+Jerk: obtained via body linear acceleration and angular velocity  
+Mag: the magnitude of the signal calclated using Euclidean norm  
 
 time-BodyAcc-mean-X          
 time-BodyAcc-mean-Y           
